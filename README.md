@@ -29,17 +29,7 @@ This plugin is a complete tdlib-tdjson binding package to help you create your o
 
 > for use tdbot you need compile tdbot!
 
-> open new terminal:
-
-**for auto make tdbot**
-```
-* cd && git clone https://github.com/m-mehdiansari/tdbot.git
-* chmod +x Sky
-* ./Sky
-```
-Enter api_hash and api_id and then continue.
-
-**for manual make telegram-bot**
+**for make telegram-bot**
 > put telegram.h and insert api_hash in line 27 and insert api_id in line 28 
 ```
 * sudo apt-get update && sudo apt-get upgrade -y
@@ -51,8 +41,6 @@ Enter api_hash and api_id and then continue.
 * cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX:PATH=../tdlib -DTD_ENABLE_LTO=ON ..
 * cmake --build . --target install
 ```
-
-
 Finally, copy and use the telegram-bot file in the tdbot/bulid path.
 
 # tdbot profile config file
