@@ -30,15 +30,28 @@ for use tdbot you need compile tdbot!
 
 open new terminal:
 
+** for auto make tdbot**
 ```
 * cd && git clone https://github.com/m-mehdiansari/tdbot.git
 * chmod +x Sky
 * ./Sky
-
 ```
 Enter api_hash and api_id and then continue.
 
-Finally, copy and use the telegram-bot file in the tdbot/bulid/td path.
+**for manual make telegram-bot**
+```
+* sudo apt-get update && sudo apt-get upgrade -y
+* sudo apt install git build-essential cmake libssl-dev liblua5.2-dev gperf libconfig++-dev
+* sudo apt-get install make git zlib1g-dev  gperf php cmake g++
+* git clone https://github.com/tdlib/td.git
+* mkdir build && cd build && cmake ..
+* export CXXFLAGS=""
+* cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX:PATH=../tdlib -DTD_ENABLE_LTO=ON ..
+* cmake --build . --target install
+```
+
+
+Finally, copy and use the telegram-bot file in the tdbot/bulid path.
 
 # tdbot profile config file
 To log in to tdbot you need to create a profile
