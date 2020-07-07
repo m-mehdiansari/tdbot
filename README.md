@@ -127,7 +127,7 @@ second = {
 ```
 # login tdbot
 
-First of all you need to create config. Default config name is `${HOME}/.telegram-bot/config`. Then you need to login
+> First of all you need to create config. Default config name is `${HOME}/.telegram-bot/config`. Then you need to login
 
 **If you want to login as bot**
 ```
