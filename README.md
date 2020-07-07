@@ -30,6 +30,9 @@ This plugin is a complete tdlib-tdjson binding package to help you create your o
 > for use tdbot you need compile tdbot!
 
 **for make telegram-bot**
+```
+* cd $HOME && git clone https://github.com/m-mehdiansari/tdbot.git && cd tdbot
+```
 > put telegram.h and insert api_hash in line 27 and insert api_id in line 28 
 ```
 * sudo apt-get update && sudo apt-get upgrade -y
