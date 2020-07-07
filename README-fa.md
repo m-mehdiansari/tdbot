@@ -145,3 +145,7 @@ second = {
 ```
 ./tdbot -c config-file
 ```
+
+<h2 align="right">ترجمه ها</h2>
+
+[Engish](https://github.com/m-mehdiansari/tdbot/blob/master/README.md)
