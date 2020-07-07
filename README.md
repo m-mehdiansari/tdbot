@@ -39,6 +39,7 @@ open new terminal:
 Enter api_hash and api_id and then continue.
 
 **for manual make telegram-bot**
+> put telegram.h and insert api_hash in line 27 and insert api_id in line 28 
 ```
 * sudo apt-get update && sudo apt-get upgrade -y
 * sudo apt install git build-essential cmake libssl-dev liblua5.2-dev gperf libconfig++-dev
