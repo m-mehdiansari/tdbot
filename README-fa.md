@@ -33,7 +33,7 @@
 <h3 align="right">:برای ساخت تلگرام بات</h3>
 
 ```
-cd $HOME && git clone https://github.com/m-mehdiansari/tdbot.git
+cd $HOME && git clone https://github.com/m-mehdiansari/tdbot.git && cd tdbot
 ```
 
 <p dir="rtl"> > فایل telegram.h را باز کنید و سپس api_hash را در لاین 27 جایگزین کنید و سپس api_id را در لاین 28 جایگزین کنید!</p>
