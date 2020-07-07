@@ -30,7 +30,7 @@ for use tdbot you need compile tdbot!
 
 open new terminal:
 
-** for auto make tdbot**
+**for auto make tdbot**
 ```
 * cd && git clone https://github.com/m-mehdiansari/tdbot.git
 * chmod +x Sky
