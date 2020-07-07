@@ -135,6 +135,6 @@ second = {
 ```
 ./tdbot -c config-file
 ```
-# Translations:
+# Translations
 
-[persian](https://github.com/m-mehdiansari/tdbot/blob/master/README-fa.md)
+[Persian](https://github.com/m-mehdiansari/tdbot/blob/master/README-fa.md)
