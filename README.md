@@ -4,8 +4,7 @@
 [Telegram Tdlib](https://github.com/tdlib/td) is a complete library for creating telegram clients, it also has a simple tdjson ready-to-use library to ease the integration with different programming languages and platforms.
 This plugin is a complete tdlib-tdjson binding package to help you create your own Telegram clients.
 
-# complie tdbot
-for use tdbot you need compile tdbot!
+# complie tdbot 
 <table style="width:100%" dir="lft">
    <tr>
       <th colspan="3">System required for compilation</th>
@@ -28,7 +27,9 @@ for use tdbot you need compile tdbot!
     </tr>
 </table>
 
-open new terminal:
+> for use tdbot you need compile tdbot!
+
+> open new terminal:
 
 **for auto make tdbot**
 ```
