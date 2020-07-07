@@ -126,18 +126,22 @@ second = {
 
 <p dir="rtl"> > در آغاز شما نیاز به ساخت فایل پروفایل دارید. مسیر فایل پروفایل به صورت پیش فرض بر روی مسیر <code>${HOME}/.telegram-bot/config</code> قرار دارد. انگاه میتوانید لاگین کنید.</p>
 
-**If you want to login as bot**
+<h4 align="right">لاگین کنید api اگر میخواهید به عنوان یک ربات</h4>
+
 ```
 ./tdbot -c config-file --login --bot=$token
 ```
-**If you want to login as user**
+
+<h4 align="right">اگر میخواهید به عنوان یک کاربر لاگین کنید</h4>
+
 ```
 ./tdbot -c config-file --login --phone=$phone_number
 ```
 
-# launch tdbot
+<h2 align="right">tdbot اجرای</h2>
 
-**if you want launch bot:**
+<h4 align="right">.اگر میخواهید ربات را راه اندازی کنید</h4>
+
 ```
 ./tdbot -c config-file
 ```
