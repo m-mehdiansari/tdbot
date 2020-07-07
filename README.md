@@ -123,9 +123,9 @@ First of all you need to create config. Default config name is `${HOME}/.telegra
 ./tdbot -c config-file --login --phone=$phone_number
 ```
 
-# luanch tdbot
+# launch tdbot
 
-**if you want luanch bot:**
+**if you want launch bot:**
 ```
 ./tdbot -c config-file
 ```
